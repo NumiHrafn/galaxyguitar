@@ -1,0 +1,184 @@
+<!DOCTYPE html> 
+<html> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="HTML layout, CSS Grid, Responsive Design, Svegjanleg hönnun">
+	<meta name="author" content="Númi Hrafn Baldursson">
+	<title>Kaupa Vöru - Galaxy Guitar™</title>
+	<link rel="icon" href="images/guitar_logo.svg" type="image/icon">
+	<link rel="stylesheet" type="text/css" href="test.css">
+
+</head>
+<body class="body-bg">
+	<div class="splash">
+
+		<div class="logo-text">
+			<img src="images/galaxy_guitar-foreground.svg" title="text">
+		</div>
+	</div>
+    <nav class="navbar">
+        <div class="navbar-header">
+          <a class="navbar-mynd" href="index.html"><img src="images\guitar_logo.svg" height="50" width="50"></a>
+          <button type="button" class="navbar-toggle" id="menu-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar-menu">
+			<div style="background-color: rgb(93,55,94);">
+          		<ul class="navbar-nav">
+            		<li><a href="index.html">heim</a></li>
+					<li><a href="#">um okkur</a></li>
+					<li><a href="#">hafa samband</a></li>
+				</ul>
+			</div>
+        </div>
+    </nav>
+	<header>
+
+	</header>
+	<!-- Container for the image gallery -->
+<div class="container">
+
+	<!-- Full-width images with number text -->
+	<div class="mySlides">
+	  <div class="numbertext">1 / 6</div>
+		<img width="600" height="600" class="pic" src="images/guitar_front_full.jpg" style="width:100%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">2 / 6</div>
+		<img class="pic" src="images/guitar_back_full.jpg" style="width:100%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">3 / 6</div>
+		<img class="pic" src="images/guitar_front_half.jpg" style="width:100%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">4 / 6</div>
+		<img class="pic" src="images/guitar_front_half_angle.jpg" style="width:100%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">5 / 6</div>
+		<img class="pic" src="images/guitar_front_head.jpg" style="width:100%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">6 / 6</div>
+		<img class="pic" src="images/guitar_back_head.jpg" style="width:100%">
+	</div>
+  
+	<!-- Next and previous buttons -->
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  
+	<!-- Thumbnail images -->
+	<div class="row">
+	  <div class="column">
+		<img class="demo cursor" src="images/guitar_front_full.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="images/guitar_back_full.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="images/guitar_front_half.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="images/guitar_front_half_angle.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="images/guitar_front_head.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="images/guitar_back_head.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+	  </div>
+	</div>
+  </div>
+		<section class="col-2">
+			<article>
+				<h3>Article </h3>
+				<p>Leturfræði eða týpógrafía (úr grísku τύπος (typos) „form“ og γραφή (graphy) „skrift“) er prentlist þar sem lögð er áhersla á notkun leturs. Ýmislegar leturgerðir eru til, það er að segja söfn bókstafa sem hafa sömu hönnun. </p>
+				<blockquote>Orðið fontur á við tilbrigði leturgerðar, eins og skáletrað eða feitletrað. Leturgerð má vera með ýmsum fontum.</blockquote>
+				<p>Með komu tölvunnar hefur leturfræði mikið breyst, áður en hún var kynnt til sögunnar var leturfræði fag útlærðra starfsmanna. Samt sem áður er leturfræði stundum ennþá talin fagkunnátta. Saga leturfræða er nátengd sögu prentunar.
+				</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, facilis? Fugit quis laudantium aspernatur labore quod beatae repellat iusto maiores? Voluptatum dignissimos porro perspiciatis ipsam optio aliquid perferendis saepe suscipit!</p>
+			</article>
+			<div>
+				<aside>			
+					<h3>Aside > 1.</h3>
+					<p>Litir eru í raun hluti af rafsegulrófinu. Aðeins lítill hluti af því, litrófið er sýnilegt. Hver litur hefur sína bylgjulengd og mannlegt auga getur einungis greint bylgju-<wbr>lengdir frá um það bil 400 til 700 nanómetrar. Bylgjulengdin er í sjálfu sér ekki litur. Liturinn verður til í heilanum og auganu.
+					</p><p><a href="http://vefir.multimedia.is/hafdis/lit/">Allt um litafræði</a></p>
+					<section class="vid">
+						<img src="images\um_okkur.jpg" title="mynd 7">
+					</section>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, facilis? Fugit quis laudantium aspernatur labore quod beatae repellat iusto maiores? Voluptatum dignissimos porro perspiciatis ipsam optio aliquid perferendis saepe suscipit!</p>
+				</aside>
+				<aside>
+					<h3>Aside > 2.</h3>
+					<p>Leturgerð eða stafagerð er í leturfræði safn bókstafa og tákna sem hafa sömu hönnun. Ýmislegar leturgerða<wbr>flokkanir eru til en helstu eru þverenda-<wbr>letur og steinskrift. <br>Þverendar kallast þau litlu strik á endum stafs.</p> 
+					<p>Heimild: Wikipedia - Leturfræði</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, facilis? Fugit quis laudantium aspernatur labore quod beatae repellat iusto maiores? Voluptatum dignissimos porro perspiciatis ipsam optio aliquid perferendis saepe suscipit!</p>
+				</aside>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<li><h3>Footer</h3></li>
+		<p><a href="https://www.w3schools.com/css/css_rwd_intro.asp">Sveigjanleg hönnun</a></p>
+		<p><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Vefhönnun</a></p>
+		<p><a href="https://vefgrunnur.github.io">&copy; 2022 Vefgrunnur</a></p>
+	</footer>
+    <script>
+ var menuToggle = document.getElementById("menu-toggle");
+        var navbarMenu = document.getElementById("navbar-menu");
+        
+        menuToggle.addEventListener("click", function() {
+          if (navbarMenu.style.display === "block") {
+            navbarMenu.style.display = "none";
+          } else {
+            navbarMenu.style.display = "block";
+          }
+        });
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+    </script>
+</body>
+</html>
