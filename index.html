@@ -1,0 +1,202 @@
+<!DOCTYPE html> 
+<html> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="HTML layout, CSS Grid, Responsive Design, Svegjanleg hönnun">
+	<meta name="author" content="Númi Hrafn Baldursson">
+	<title>Galaxy Guitar™</title>
+	<link rel="icon" href="images/guitar_logo.svg" type="image/icon">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+
+
+</head>
+<body class="body-bg">
+	<img class="screen" src="images/broken_screen.png" alt="Screen">	
+	<div class="splash">
+
+		<div class="logo-text">
+			<img src="images/galaxy_guitar-foreground.svg" title="text">
+		</div>
+			<nav class="navbar">
+				<div class="navbar-header">
+				<a class="navbar-mynd" href="index.html"><img src="images\guitar_logo.svg" height="50" width="50"></a>
+				<button type="button" class="navbar-toggle" id="menu-toggle">
+					<div class="nav-container" onclick="myFunction(this)">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+				</button>
+				</div>
+				<div id="navbar-menu">
+					<div style="background-color: rgb(93,55,94);">
+						<ul class="navbar-nav">
+							<li><a href="#">Heim</a></li>
+							<li><a href="um_okkur.html">Um Okkur</a></li>
+							<li><a href="#">Hafa Samband</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div id="navbar">
+				<a href="#">Heim</a>
+				<a href="um_okkur.html">Um Okkur</a>
+				<a href="#contact">Hafa Samband</a>
+			</div>
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<picture>
+						<img src="images/nebula-1280.jpg" title="nebula mynd">
+					  </picture>
+					  <div class="inspiring">you are what you play</div>
+					<div class="text">Sounds like a galaxy should</div>
+				</div>
+
+				<div class="mySlides fade">
+					<picture>
+					<img src="images/eddie_van_halen.jpg" title="van halen" style="width:100%">
+					</picture>
+					<div class="inspiring">you are what you play</div>
+					<div class="text">Make mystical melodies</div>
+				</div>
+
+				<div class="mySlides fade">
+					<picture>
+					<img src="images/jimi_hendrix.jpg" title="jimi hendrix" style="width:100%">
+					</picture>
+					<div class="inspiring">you are what you play</div>
+					<div class="text">Create celestial chords</div>
+				</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					<a class="buy" href="kaupa.html">kaupa vöru</a>
+					<a class="contact">hafa samband</a>
+					<div class="animation">
+						<div class="discount"></div>
+						<div class="fist-container">
+							<div class="fist">
+							</div>
+						  </div>
+					  </div>
+
+				</div>
+				<br>
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+				</div>
+	</div>
+
+	<header>
+
+	</header>
+	<main class="container">
+		<section class="col-3">
+			<img src="images/guitar_front_full.jpg" title="mynd 1">
+			<img src="images/guitar_back_full.jpg" title="mynd 2">
+			<img src="images/guitar_front_half.jpg" title="mynd 3">
+			<img src="images/guitar_front_half_angle.jpg" title="mynd 4">
+			<img src="images/guitar_back_head.jpg" title="mynd 5">
+			<img src="images/guitar_front_head.jpg" title="mynd 6">
+		</section>
+		<section class="col-2">
+			<article>
+				<h3>Article </h3>
+				<p>Leturfræði eða týpógrafía (úr grísku τύπος (typos) „form“ og γραφή (graphy) „skrift“) er prentlist þar sem lögð er áhersla á notkun leturs. Ýmislegar leturgerðir eru til, það er að segja söfn bókstafa sem hafa sömu hönnun. </p>
+				<blockquote>Orðið fontur á við tilbrigði leturgerðar, eins og skáletrað eða feitletrað. Leturgerð má vera með ýmsum fontum.</blockquote>
+				<p>Með komu tölvunnar hefur leturfræði mikið breyst, áður en hún var kynnt til sögunnar var leturfræði fag útlærðra starfsmanna. Samt sem áður er leturfræði stundum ennþá talin fagkunnátta. Saga leturfræða er nátengd sögu prentunar.
+				</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, facilis? Fugit quis laudantium aspernatur labore quod beatae repellat iusto maiores? Voluptatum dignissimos porro perspiciatis ipsam optio aliquid perferendis saepe suscipit!</p>
+			</article>
+			<div>
+				<aside>			
+					<h3>Aside 1.</h3>
+					<p>Litir eru í raun hluti af rafsegulrófinu. Aðeins lítill hluti af því, litrófið er sýnilegt. Hver litur hefur sína bylgjulengd og mannlegt auga getur einungis greint bylgju-<wbr>lengdir frá um það bil 400 til 700 nanómetrar. Bylgjulengdin er í sjálfu sér ekki litur. Liturinn verður til í heilanum og auganu.
+					</p><p><a href="http://vefir.multimedia.is/hafdis/lit/">Allt um litafræði</a></p>
+					<section class="vid">
+						<img src="images\um_okkur.jpg" title="mynd 7">
+					</section>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, facilis? Fugit quis laudantium aspernatur labore quod beatae repellat iusto maiores? Voluptatum dignissimos porro perspiciatis ipsam optio aliquid perferendis saepe suscipit!</p>
+				</aside>
+				<aside>
+					<h3>Aside 2.</h3>
+					<p>Leturgerð eða stafagerð er í leturfræði safn bókstafa og tákna sem hafa sömu hönnun. Ýmislegar leturgerða<wbr>flokkanir eru til en helstu eru þverenda-<wbr>letur og steinskrift. <br>Þverendar kallast þau litlu strik á endum stafs.</p> 
+					<p>Heimild: Wikipedia - Leturfræði</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, facilis? Fugit quis laudantium aspernatur labore quod beatae repellat iusto maiores? Voluptatum dignissimos porro perspiciatis ipsam optio aliquid perferendis saepe suscipit!</p>
+				</aside>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<li><h3>Footer</h3></li>
+		<p><a href="https://www.w3schools.com/css/css_rwd_intro.asp">Sveigjanleg hönnun</a></p>
+		<p><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Vefhönnun</a></p>
+		<p><a href="https://vefgrunnur.github.io">&copy; 2022 Vefgrunnur</a></p>
+	</footer>
+    <script>
+
+setTimeout(function() {
+  document.querySelector('.fist-container').classList.add('fade-out');
+  document.querySelector('.screen').classList.add('fade-out');
+}, 3000);
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 400) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+        var menuToggle = document.getElementById("menu-toggle");
+        var navbarMenu = document.getElementById("navbar-menu");
+        
+        menuToggle.addEventListener("click", function() {
+          if (navbarMenu.style.display === "block") {
+            navbarMenu.style.display = "none";
+          } else {
+            navbarMenu.style.display = "block";
+          }
+        });
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+		showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+		showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		let i;
+		let slides = document.getElementsByClassName("mySlides");
+		let dots = document.getElementsByClassName("dot");
+		if (n > slides.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = slides.length}
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";
+		dots[slideIndex-1].className += " active";
+		}
+    </script>
+</body>
+</html>
